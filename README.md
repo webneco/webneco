@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated SVG header — commit header.svg to this repo first -->
-<img src="https://raw.githubusercontent.com/Webneco/Webneco/main/header.svg" width="100%" alt="Aditya Vikram Singh" />
+<img src="https://github.com/webneco/webneco/blob/main/header.svg" width="100%" alt="Aditya Vikram Singh" />
 
 <br/>
 
