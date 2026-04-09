@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- Animated SVG header — commit header.svg to this repo first -->
+<!-- Animated SVG header : commit header.svg to this repo first -->
 <img src="https://github.com/webneco/webneco/blob/main/header.svg" width="100%" alt="Aditya Vikram Singh" />
 
 <br/>
@@ -23,7 +23,7 @@
 
 const aditya = {
   company:    "Webneco Infotech",
-  flagship:   "Nirmaanly — AI no-code app builder for India's 63M SMEs",
+  flagship:   "Nirmaanly : AI no-code app builder for India's 63M MSME's",
   stack:      ["React", "Node.js", "MongoDB", "Supabase", "Razorpay", "Claude API"],
   markets:    ["Indian SMEs", "Bharat / Vernacular", "Global"],
   compliance: ["DPDP Act", "UPI-native", "GST-ready", "Freemium"],
@@ -35,8 +35,8 @@ const aditya = {
 
 ## ⚡ What I Do
 
-- 🚀 Building **[Nirmaanly](https://nirmaanly.com)** — AI no-code app builder for India's 63M SMEs, Hindi-first, UPI-native, DPDP-compliant
-- 🏢 Founder @ **[Webneco Infotech](https://Webneco.com)** — Full-service SaaS & AI Automation agency
+- 🚀 Building **[Nirmaanly](https://nirmaanly.com)** : AI no-code app builder for India's 63M SMEs, Hindi-first, UPI-native, DPDP-compliant
+- 🏢 Founder @ **[Webneco Infotech](https://Webneco.com)** : Full-service SaaS & AI Automation agency
 - 🤖 Shipped **40+ SaaS products** · AI-first architecture · RAG pipelines · LLM integrations
 - 🛠 MERN stack specialist · 6 years building scalable, production-grade systems
 - 🌐 Building AI-first products for Bharat's vernacular markets → Global scale
@@ -68,8 +68,8 @@ const aditya = {
 
 | Project | Description | Stack | Status |
 |:--------|:------------|:------|:------:|
-| [🚀 Nirmaanly](https://nirmaanly.com) | AI no-code app builder for Indian SMEs — Hindi-first, UPI-native, DPDP-compliant | React · Supabase · Razorpay · Claude | 🟢 **Live** |
-| [🏢 Webneco](https://Webneco.com) | Full-service SaaS & AI automation agency — 40+ products, 30+ clients | MERN · AI · SEO | 🟢 **Active** |
+| [🚀 Nirmaanly](https://nirmaanly.com) | AI no-code app builder for Indian SMEs : Hindi-first, UPI-native, DPDP-compliant | React · Supabase · Razorpay · Claude | 🟢 **Live** |
+| [🏢 Webneco](https://Webneco.com) | Full-service SaaS & AI automation agency : 40+ products, 30+ clients | MERN · AI · SEO | 🟢 **Active** |
 | 🤖 AI Automation | Vernacular AI agents, RAG pipelines, MCP servers for Bharat | LangChain · OpenAI · Claude | 🟡 **Building** |
 
 ---
