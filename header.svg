@@ -1,0 +1,158 @@
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="#060c14"/>
+  <rect width="900" height="280" fill="url(#bgGlow)"/>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="60%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#060c14" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgGlow2" cx="20%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#060c14" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fde68a"/>
+      <stop offset="70%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060c14"/>
+      <stop offset="30%" stop-color="#f97316"/>
+      <stop offset="70%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#060c14"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060c14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#060c14" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Second glow -->
+  <rect width="900" height="280" fill="url(#bgGlow2)"/>
+
+  <!-- Grid lines horizontal -->
+  <line x1="0" y1="56" x2="900" y2="56" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.08"/>
+  <line x1="0" y1="112" x2="900" y2="112" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.08"/>
+  <line x1="0" y1="168" x2="900" y2="168" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.08"/>
+  <line x1="0" y1="224" x2="900" y2="224" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.08"/>
+
+  <!-- Grid lines vertical -->
+  <line x1="90" y1="0" x2="90" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="180" y1="0" x2="180" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="270" y1="0" x2="270" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="360" y1="0" x2="360" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="450" y1="0" x2="450" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="540" y1="0" x2="540" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="630" y1="0" x2="630" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="720" y1="0" x2="720" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+  <line x1="810" y1="0" x2="810" y2="280" stroke="#ea580c" stroke-width="0.3" stroke-opacity="0.05"/>
+
+  <!-- Corner HUD brackets -->
+  <path d="M 18 34 L 18 18 L 34 18" stroke="#ea580c" stroke-width="1.8" fill="none" stroke-opacity="0.7"/>
+  <path d="M 866 18 L 882 18 L 882 34" stroke="#ea580c" stroke-width="1.8" fill="none" stroke-opacity="0.7"/>
+  <path d="M 18 246 L 18 262 L 34 262" stroke="#ea580c" stroke-width="1.8" fill="none" stroke-opacity="0.7"/>
+  <path d="M 866 262 L 882 262 L 882 246" stroke="#ea580c" stroke-width="1.8" fill="none" stroke-opacity="0.7"/>
+
+  <!-- Particles with pure SMIL animate -->
+  <!-- p1 -->
+  <circle cx="72" cy="55" r="1.3" fill="#fb923c" opacity="0.6">
+    <animate attributeName="cy" values="55;44;55" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p2 -->
+  <circle cx="195" cy="228" r="1" fill="#fbbf24" opacity="0.5">
+    <animate attributeName="cy" values="228;217;228" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="5.8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p3 -->
+  <circle cx="740" cy="72" r="1.4" fill="#fb923c" opacity="0.7">
+    <animate attributeName="cy" values="72;60;72" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p4 -->
+  <circle cx="830" cy="195" r="1.1" fill="#f97316" opacity="0.55">
+    <animate attributeName="cy" values="195;184;195" dur="6.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0.12;0.55" dur="6.1s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p5 -->
+  <circle cx="448" cy="28" r="0.9" fill="#fde68a" opacity="0.5">
+    <animate attributeName="cy" values="28;19;28" dur="4.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.7s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p6 -->
+  <circle cx="138" cy="165" r="1.2" fill="#fb923c" opacity="0.4">
+    <animate attributeName="cx" values="138;150;138" dur="7.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="7.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p7 -->
+  <circle cx="670" cy="245" r="1" fill="#fbbf24" opacity="0.55">
+    <animate attributeName="cy" values="245;234;245" dur="5.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0.12;0.55" dur="5.3s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p8 -->
+  <circle cx="335" cy="252" r="1.3" fill="#f97316" opacity="0.45">
+    <animate attributeName="cy" values="252;241;252" dur="4.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="4.4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p9 -->
+  <circle cx="595" cy="42" r="1.1" fill="#fb923c" opacity="0.65">
+    <animate attributeName="cy" values="42;31;42" dur="6.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.65;0.2;0.65" dur="6.6s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p10 -->
+  <circle cx="290" cy="88" r="0.8" fill="#fde68a" opacity="0.4">
+    <animate attributeName="cy" values="88;78;88" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.08;0.4" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p11 -->
+  <circle cx="560" cy="210" r="1.2" fill="#f97316" opacity="0.5">
+    <animate attributeName="cx" values="560;572;560" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.12;0.5" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- p12 -->
+  <circle cx="860" cy="120" r="0.9" fill="#fb923c" opacity="0.45">
+    <animate attributeName="cy" values="120;109;120" dur="4.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.45;0.1;0.45" dur="4.9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Eyebrow -->
+  <line x1="340" y1="92" x2="382" y2="92" stroke="#ea580c" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="450" y="96" font-family="monospace" font-size="10" fill="#ea580c" text-anchor="middle" letter-spacing="3.5" opacity="0.85">FULL STACK · AI BUILDER · FOUNDER</text>
+  <line x1="518" y1="92" x2="560" y2="92" stroke="#ea580c" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- Main name — gradient fill, fade in -->
+  <text x="450" y="162" font-family="Arial Black, Impact, sans-serif" font-size="60" font-weight="900" text-anchor="middle" letter-spacing="-1" fill="url(#nameGrad)">
+    ADITYA VIKRAM SINGH
+    <animate attributeName="opacity" values="0;0;1" dur="1s" repeatCount="1" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="196" font-family="monospace" font-size="13" fill="#94a3b8" text-anchor="middle" letter-spacing="0.3">
+    ⚡ MERN Dev  ·  🤖 AI Builder  ·  🏢 Founder @ WebNeco  ·  🚀 Building Nirmaanly
+  </text>
+
+  <!-- Animated underline that expands from center -->
+  <rect x="450" y="207" width="0" height="2" fill="url(#lineGrad)" rx="1">
+    <animate attributeName="width" values="0;900" dur="1.2s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="x" values="450;0" dur="1.2s" begin="0.3s" fill="freeze"/>
+  </rect>
+
+  <!-- Tagline -->
+  <text x="450" y="244" font-family="monospace" font-size="12" fill="#f97316" text-anchor="middle" letter-spacing="2" font-weight="bold">
+    Building for Bharat 🇮🇳  →  Global
+  </text>
+
+  <!-- Scanning line — moves top to bottom forever -->
+  <rect x="0" y="0" width="900" height="2" fill="url(#scanGrad)" opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,282" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bottom glow border -->
+  <rect x="0" y="276" width="900" height="4" fill="url(#lineGrad)" opacity="0.4"/>
+
+</svg>
