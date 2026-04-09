@@ -1,0 +1,210 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+  <!-- Deep space bg -->
+  <linearGradient id="bg" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308"/>
+    <stop offset="35%" stop-color="#080010"/>
+    <stop offset="65%" stop-color="#0f0300"/>
+    <stop offset="100%" stop-color="#000308"/>
+  </linearGradient>
+
+  <!-- Name fire gradient -->
+  <linearGradient id="fire" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#fff7ed"/>
+    <stop offset="25%" stop-color="#ffffff"/>
+    <stop offset="50%" stop-color="#fed7aa"/>
+    <stop offset="75%" stop-color="#f97316"/>
+    <stop offset="100%" stop-color="#c2410c"/>
+  </linearGradient>
+
+  <!-- Horizontal scan gradient -->
+  <linearGradient id="scan" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308" stop-opacity="0"/>
+    <stop offset="40%" stop-color="#f97316" stop-opacity="0.7"/>
+    <stop offset="60%" stop-color="#fb923c" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#000308" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Orange pulse gradient for lines -->
+  <linearGradient id="hline" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308" stop-opacity="0"/>
+    <stop offset="20%" stop-color="#ea580c" stop-opacity="0.6"/>
+    <stop offset="80%" stop-color="#ea580c" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#000308" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Hexagon clip -->
+  <clipPath id="mainClip">
+    <rect width="900" height="320"/>
+  </clipPath>
+
+</defs>
+
+<!-- BASE -->
+<rect width="900" height="320" fill="url(#bg)"/>
+
+<!-- DEEP SPACE STARS — tiny dots scattered -->
+<circle cx="23" cy="14" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
+<circle cx="87" cy="41" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="156" cy="22" r="0.7" fill="#fff" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="234" cy="8" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.2s" repeatCount="indefinite"/></circle>
+<circle cx="312" cy="30" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.7s" repeatCount="indefinite"/></circle>
+<circle cx="401" cy="12" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="489" cy="25" r="0.7" fill="#fff" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/></circle>
+<circle cx="567" cy="9" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.6s" repeatCount="indefinite"/></circle>
+<circle cx="645" cy="35" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.9s" repeatCount="indefinite"/></circle>
+<circle cx="723" cy="17" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="801" cy="28" r="0.7" fill="#fff" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="867" cy="11" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="44" cy="290" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="178" cy="305" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="378" cy="298" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="4.1s" repeatCount="indefinite"/></circle>
+<circle cx="712" cy="308" r="0.5" fill="#fff" opacity="0.3"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="856" cy="295" r="0.6" fill="#fff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+
+<!-- ORANGE NEBULA GLOW (radial) — left -->
+<ellipse cx="160" cy="160" rx="200" ry="140" fill="#ea580c" opacity="0">
+  <animate attributeName="opacity" values="0;0.07;0.04;0.07;0" dur="8s" repeatCount="indefinite"/>
+</ellipse>
+<!-- right -->
+<ellipse cx="740" cy="160" rx="180" ry="130" fill="#c2410c" opacity="0">
+  <animate attributeName="opacity" values="0;0.05;0.08;0.05;0" dur="10s" repeatCount="indefinite"/>
+</ellipse>
+<!-- center glow -->
+<ellipse cx="450" cy="160" rx="280" ry="120" fill="#f97316" opacity="0.04"/>
+
+<!-- HEX GRID — subtle orange mesh -->
+<g stroke="#ea580c" stroke-width="0.4" stroke-opacity="0.07" fill="none">
+  <!-- Horizontal grid -->
+  <line x1="0" y1="53" x2="900" y2="53"/>
+  <line x1="0" y1="106" x2="900" y2="106"/>
+  <line x1="0" y1="159" x2="900" y2="159"/>
+  <line x1="0" y1="212" x2="900" y2="212"/>
+  <line x1="0" y1="265" x2="900" y2="265"/>
+  <!-- Vertical grid -->
+  <line x1="75"  y1="0" x2="75"  y2="320"/>
+  <line x1="150" y1="0" x2="150" y2="320"/>
+  <line x1="225" y1="0" x2="225" y2="320"/>
+  <line x1="300" y1="0" x2="300" y2="320"/>
+  <line x1="375" y1="0" x2="375" y2="320"/>
+  <line x1="450" y1="0" x2="450" y2="320"/>
+  <line x1="525" y1="0" x2="525" y2="320"/>
+  <line x1="600" y1="0" x2="600" y2="320"/>
+  <line x1="675" y1="0" x2="675" y2="320"/>
+  <line x1="750" y1="0" x2="750" y2="320"/>
+  <line x1="825" y1="0" x2="825" y2="320"/>
+  <!-- Diagonal accent lines -->
+  <line x1="0" y1="0" x2="120" y2="320" stroke-opacity="0.04"/>
+  <line x1="780" y1="0" x2="900" y2="320" stroke-opacity="0.04"/>
+</g>
+
+<!-- FLOATING ORANGE PARTICLES -->
+<circle cx="55"  cy="70"  r="1.8" fill="#fb923c" opacity="0.55"><animate attributeName="cy" values="70;56;70" dur="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.55;0.15;0.55" dur="4.3s" repeatCount="indefinite"/></circle>
+<circle cx="130" cy="240" r="1.4" fill="#fbbf24" opacity="0.4"><animate attributeName="cy" values="240;226;240" dur="6.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.1;0.4" dur="6.1s" repeatCount="indefinite"/></circle>
+<circle cx="210" cy="95"  r="1.2" fill="#f97316" opacity="0.5"><animate attributeName="cx" values="210;222;210" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.12;0.5" dur="5.5s" repeatCount="indefinite"/></circle>
+<circle cx="680" cy="65"  r="1.9" fill="#fb923c" opacity="0.6"><animate attributeName="cy" values="65;51;65" dur="3.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.18;0.6" dur="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="760" cy="245" r="1.3" fill="#fde68a" opacity="0.45"><animate attributeName="cy" values="245;231;245" dur="5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.45;0.1;0.45" dur="5.2s" repeatCount="indefinite"/></circle>
+<circle cx="840" cy="100" r="1.5" fill="#f97316" opacity="0.5"><animate attributeName="cx" values="840;828;840" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.12;0.5" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="355" cy="270" r="1.1" fill="#fb923c" opacity="0.4"><animate attributeName="cy" values="270;258;270" dur="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.08;0.4" dur="4.8s" repeatCount="indefinite"/></circle>
+<circle cx="540" cy="50"  r="1.6" fill="#fbbf24" opacity="0.5"><animate attributeName="cy" values="50;38;50" dur="3.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;0.14;0.5" dur="3.9s" repeatCount="indefinite"/></circle>
+<circle cx="450" cy="290" r="1.0" fill="#f97316" opacity="0.4"><animate attributeName="cx" values="450;462;450" dur="8.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.08;0.4" dur="8.5s" repeatCount="indefinite"/></circle>
+<circle cx="90"  cy="170" r="1.3" fill="#fde68a" opacity="0.35"><animate attributeName="cy" values="170;158;170" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.35;0.08;0.35" dur="6.8s" repeatCount="indefinite"/></circle>
+<circle cx="810" cy="170" r="1.4" fill="#fb923c" opacity="0.4"><animate attributeName="cy" values="170;158;170" dur="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;0.1;0.4" dur="5.6s" repeatCount="indefinite"/></circle>
+
+<!-- HUD CORNER BRACKETS — animated draw-in -->
+<!-- Top-left -->
+<polyline points="14,50 14,14 50,14" fill="none" stroke="#f97316" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="72" stroke-dashoffset="72">
+  <animate attributeName="stroke-dashoffset" values="72;0" dur="0.8s" fill="freeze"/>
+</polyline>
+<!-- Top-right -->
+<polyline points="886,14 850,14" fill="none" stroke="#f97316" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="36" stroke-dashoffset="36">
+  <animate attributeName="stroke-dashoffset" values="36;0" dur="0.5s" begin="0.1s" fill="freeze"/>
+</polyline>
+<polyline points="886,14 886,50" fill="none" stroke="#f97316" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="36" stroke-dashoffset="36">
+  <animate attributeName="stroke-dashoffset" values="36;0" dur="0.5s" begin="0.2s" fill="freeze"/>
+</polyline>
+<!-- Bottom-left -->
+<polyline points="14,270 14,306 50,306" fill="none" stroke="#f97316" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="72" stroke-dashoffset="72">
+  <animate attributeName="stroke-dashoffset" values="72;0" dur="0.8s" begin="0.15s" fill="freeze"/>
+</polyline>
+<!-- Bottom-right -->
+<polyline points="886,270 886,306 850,306" fill="none" stroke="#f97316" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="72" stroke-dashoffset="72">
+  <animate attributeName="stroke-dashoffset" values="72;0" dur="0.8s" begin="0.25s" fill="freeze"/>
+</polyline>
+
+<!-- HUD TICK MARKS on border -->
+<rect x="448" y="0"   width="4" height="8"  fill="#f97316" opacity="0.5"/>
+<rect x="448" y="312" width="4" height="8"  fill="#f97316" opacity="0.5"/>
+<rect x="0"   y="158" width="8" height="4"  fill="#f97316" opacity="0.5"/>
+<rect x="892" y="158" width="8" height="4"  fill="#f97316" opacity="0.5"/>
+
+<!-- SIDE HUD LABELS -->
+<text x="8" y="170" font-family="monospace" font-size="7.5" fill="#f97316" opacity="0.35" letter-spacing="1.5" transform="rotate(-90,8,170)">WEBNECO_INFOTECH_v6.0</text>
+<text x="895" y="148" font-family="monospace" font-size="7.5" fill="#f97316" opacity="0.35" letter-spacing="1.5" transform="rotate(90,895,148)">AI_BUILDER · MERN_STACK</text>
+
+<!-- EYEBROW LINE + TEXT -->
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.3s" fill="freeze"/>
+  <line x1="290" y1="88" x2="338" y2="88" stroke="#f97316" stroke-width="0.8" stroke-opacity="0.7"/>
+  <text x="450" y="92" font-family="monospace" font-size="9.5" fill="#f97316" text-anchor="middle" letter-spacing="4" opacity="0.9">FULL STACK  ·  AI BUILDER  ·  FOUNDER @ WEBNECO</text>
+  <line x1="562" y1="88" x2="610" y2="88" stroke="#f97316" stroke-width="0.8" stroke-opacity="0.7"/>
+</g>
+
+<!-- MAIN NAME — gradient, fades up from below -->
+<text x="450" y="175" font-family="Arial Black,Impact,sans-serif" font-size="64" font-weight="900" text-anchor="middle" letter-spacing="-1.5" fill="url(#fire)" opacity="0">
+  ADITYA VIKRAM SINGH
+  <animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.1s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0,18;0,0" dur="0.9s" begin="0.1s" fill="freeze"/>
+</text>
+
+<!-- GHOST / GLOW shadow of name slightly offset — orange tint -->
+<text x="451" y="176" font-family="Arial Black,Impact,sans-serif" font-size="64" font-weight="900" text-anchor="middle" letter-spacing="-1.5" fill="#ea580c" opacity="0">
+  ADITYA VIKRAM SINGH
+  <animate attributeName="opacity" values="0;0.12" dur="0.9s" begin="0.1s" fill="freeze"/>
+</text>
+
+<!-- ANIMATED UNDERLINE expanding from center -->
+<rect x="450" y="188" width="0" height="2" fill="url(#hline)" rx="1">
+  <animate attributeName="width" values="0;900" dur="1s" begin="0.5s" fill="freeze"/>
+  <animate attributeName="x"     values="450;0"  dur="1s" begin="0.5s" fill="freeze"/>
+</rect>
+
+<!-- SUBTITLE -->
+<text x="450" y="220" font-family="monospace" font-size="12.5" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5" opacity="0">
+  ⚡ MERN Dev  ·  🤖 AI Builder  ·  🏢 Founder @ WebNeco  ·  🚀 Building Nirmaanly
+  <animate attributeName="opacity" values="0;0.9" dur="0.7s" begin="0.6s" fill="freeze"/>
+</text>
+
+<!-- TAG LINE pulsing -->
+<text x="450" y="255" font-family="monospace" font-size="11.5" fill="#f97316" text-anchor="middle" letter-spacing="2.5" font-weight="bold" opacity="0">
+  Building for Bharat 🇮🇳  →  Global
+  <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>
+</text>
+<!-- Slow pulse on tagline -->
+<text x="450" y="255" font-family="monospace" font-size="11.5" fill="#f97316" text-anchor="middle" letter-spacing="2.5" font-weight="bold" opacity="0">
+  Building for Bharat 🇮🇳  →  Global
+  <animate attributeName="opacity" values="0;0;1;0.7;1;0.7;1" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+</text>
+
+<!-- STATUS DOTS row -->
+<circle cx="340" cy="276" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+<text x="350" y="280" font-family="monospace" font-size="9" fill="#86efac" opacity="0.8">NIRMAANLY LIVE</text>
+<circle cx="460" cy="276" r="3.5" fill="#f97316"><animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+<text x="470" y="280" font-family="monospace" font-size="9" fill="#fb923c" opacity="0.8">WEBNECO ACTIVE</text>
+<circle cx="570" cy="276" r="3.5" fill="#a78bfa"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+<text x="580" y="280" font-family="monospace" font-size="9" fill="#c4b5fd" opacity="0.8">AI BUILDING</text>
+
+<!-- SCAN LINE — sweeps top to bottom forever -->
+<rect x="0" y="0" width="900" height="2.5" fill="url(#scan)" opacity="0.6" clip-path="url(#mainClip)">
+  <animateTransform attributeName="transform" type="translate" values="0,-3;0,323" dur="3.8s" repeatCount="indefinite"/>
+</rect>
+
+<!-- TOP BORDER glow -->
+<rect x="0" y="0" width="900" height="2" fill="url(#hline)" opacity="0.5"/>
+<!-- BOTTOM BORDER glow animated pulse -->
+<rect x="0" y="318" width="900" height="2" fill="url(#hline)" opacity="0.4">
+  <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+</rect>
+
+</svg>
