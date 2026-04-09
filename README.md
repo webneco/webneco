@@ -126,39 +126,6 @@ const aditya = {
 
 </div>
 
-<details>
-<summary>⚙️ Enable the snake</summary>
-
-Create `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: Webneco
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**Actions → Generate Snake → Run workflow**
-
-</details>
-
 ---
 
 ## 🤝 Connect
