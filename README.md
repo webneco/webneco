@@ -202,15 +202,7 @@ Most of these are private client and product work. The public ones live [here](h
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=webneco&theme=dark&hide_border=true&background=0A1420&ring=D01012&fire=FE8A18&currStreakLabel=F2CD37&stroke=1B3554&sideLabels=8FA3B8&dates=6C6E68" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=webneco&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=webneco&bg_color=0A1420&color=F2CD37&line=FE8A18&point=D01012&area=true&area_color=0D69AB&hide_border=true&radius=4" width="100%" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/timeline.svg?v=4" width="100%" alt="Build timeline — one brick per build started" />
 
 </div>
 
@@ -237,6 +229,6 @@ Most of these are private client and product work. The public ones live [here](h
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1420,40:0D69AB,100:0A1420&height=110&section=footer&text=Building+from+Bhopal,+brick+by+brick+🧱🇮🇳&fontSize=14&fontColor=F2CD37&animation=twinkling&fontAlignY=68" width="100%"/>
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/footer.svg?v=4" width="100%" alt="Building from Bhopal, brick by brick" />
 
 </div>
