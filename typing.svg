@@ -1,0 +1,26 @@
+<svg width="900" height="58" viewBox="0 0 900 58" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <pattern id="plate" width="26" height="26" patternUnits="userSpaceOnUse">
+    <circle cx="13" cy="13" r="7.4" fill="#12233A"/>
+    <ellipse cx="13" cy="11.4" rx="7.4" ry="5.8" fill="#1B3554" opacity="0.5"/>
+  </pattern>
+  <clipPath id="tc0"><rect id="tr0" x="317.4" y="0" width="0" height="58"><animate attributeName="width" values="0;0;265.2;265.2;0;0" keyTimes="0;0.0000;0.1100;0.1840;0.1940;1" dur="20.0s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="tc1"><rect id="tr1" x="210.3" y="0" width="0" height="58"><animate attributeName="width" values="0;0;479.4;479.4;0;0" keyTimes="0;0.2000;0.3100;0.3840;0.3940;1" dur="20.0s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="tc2"><rect id="tr2" x="297.0" y="0" width="0" height="58"><animate attributeName="width" values="0;0;306.0;306.0;0;0" keyTimes="0;0.4000;0.5100;0.5840;0.5940;1" dur="20.0s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="tc3"><rect id="tr3" x="256.2" y="0" width="0" height="58"><animate attributeName="width" values="0;0;387.6;387.6;0;0" keyTimes="0;0.6000;0.7100;0.7840;0.7940;1" dur="20.0s" repeatCount="indefinite"/></rect></clipPath>
+  <clipPath id="tc4"><rect id="tr4" x="251.1" y="0" width="0" height="58"><animate attributeName="width" values="0;0;397.8;397.8;0;0" keyTimes="0;0.8000;0.9100;0.9840;0.9940;1" dur="20.0s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect width="900" height="58" fill="#0A1420"/>
+<rect width="900" height="58" fill="url(#plate)" opacity="0.55"/>
+<text x="18" y="35" font-family="monospace" font-size="15" font-weight="bold" fill="#A8E10C" opacity="0.8">&gt;</text>
+<g clip-path="url(#tc0)"><text x="317.4" y="35" font-family="monospace" font-size="17.0" font-weight="bold" fill="#F2CD37" letter-spacing="0" xml:space="preserve">Founder @ WebNeco Infotech</text></g>
+<rect y="18" width="9" height="17" rx="1.5" fill="#FBE47A" opacity="0"><animate attributeName="x" values="317.4;317.4;582.6;582.6;317.4;317.4" keyTimes="0;0.0000;0.1100;0.1840;0.1940;1" dur="20.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;1;0;1;1;0;0" keyTimes="0;0.0000;0.0000;0.1100;0.1280;0.1460;0.1640;0.1840;0.1940;0.1940;1" dur="20.0s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#tc1)"><text x="210.3" y="35" font-family="monospace" font-size="17.0" font-weight="bold" fill="#12A5A0" letter-spacing="0" xml:space="preserve">Building CareFlow CMS - a clinic OS on WhatsApp</text></g>
+<rect y="18" width="9" height="17" rx="1.5" fill="#5BD8D3" opacity="0"><animate attributeName="x" values="210.3;210.3;689.7;689.7;210.3;210.3" keyTimes="0;0.2000;0.3100;0.3840;0.3940;1" dur="20.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;1;0;1;1;0;0" keyTimes="0;0.2000;0.2000;0.3100;0.3280;0.3460;0.3640;0.3840;0.3940;0.3940;1" dur="20.0s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#tc2)"><text x="297.0" y="35" font-family="monospace" font-size="17.0" font-weight="bold" fill="#FE8A18" letter-spacing="0" xml:space="preserve">50 builds, one brick at a time</text></g>
+<rect y="18" width="9" height="17" rx="1.5" fill="#FFB463" opacity="0"><animate attributeName="x" values="297.0;297.0;603.0;603.0;297.0;297.0" keyTimes="0;0.4000;0.5100;0.5840;0.5940;1" dur="20.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;1;0;1;1;0;0" keyTimes="0;0.4000;0.4000;0.5100;0.5280;0.5460;0.5640;0.5840;0.5940;0.5940;1" dur="20.0s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#tc3)"><text x="256.2" y="35" font-family="monospace" font-size="17.0" font-weight="bold" fill="#8B5CF6" letter-spacing="0" xml:space="preserve">RAG pipelines, MCP servers, LLM agents</text></g>
+<rect y="18" width="9" height="17" rx="1.5" fill="#B79BFA" opacity="0"><animate attributeName="x" values="256.2;256.2;643.8;643.8;256.2;256.2" keyTimes="0;0.6000;0.7100;0.7840;0.7940;1" dur="20.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;1;0;1;1;0;0" keyTimes="0;0.6000;0.6000;0.7100;0.7280;0.7460;0.7640;0.7840;0.7940;0.7940;1" dur="20.0s" repeatCount="indefinite"/></rect>
+<g clip-path="url(#tc4)"><text x="251.1" y="35" font-family="monospace" font-size="17.0" font-weight="bold" fill="#2E9E4F" letter-spacing="0" xml:space="preserve">Building for Bharat, shipping worldwide</text></g>
+<rect y="18" width="9" height="17" rx="1.5" fill="#69D68C" opacity="0"><animate attributeName="x" values="251.1;251.1;648.9;648.9;251.1;251.1" keyTimes="0;0.8000;0.9100;0.9840;0.9940;1" dur="20.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;1;0;1;1;0;0" keyTimes="0;0.8000;0.8000;0.9100;0.9280;0.9460;0.9640;0.9840;0.9940;0.9940;1" dur="20.0s" repeatCount="indefinite"/></rect>
+</svg>

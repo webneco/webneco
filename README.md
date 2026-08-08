@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=700&color=F2CD37&center=true&vCenter=true&width=780&lines=Founder%20%40%20WebNeco%20Infotech;Building%20CareFlow%20CMS%20%E2%80%94%20Clinic%20OS%20for%20India%20%F0%9F%8F%A5;WhatsApp-native%3A%20booking%20%E2%86%92%20invoice%20%E2%86%92%20recall;Next.js%20%2B%20MERN%20Full-Stack%20Developer;RAG%20%7C%20LLMs%20%7C%20MCP%20%7C%20AI%20Automation%20%F0%9F%A4%96;50%20repos%20·%20one%20brick%20at%20a%20time%20%F0%9F%A7%B1;Building%20for%20Bharat%20%F0%9F%87%AE%F0%9F%87%B3%20%E2%86%92%20Global" alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/typing.svg?v=4" width="100%" alt="Founder @ WebNeco Infotech · Building CareFlow CMS · 50 builds, one brick at a time" />
 
 <br/><br/>
 
@@ -191,8 +191,14 @@ Most of these are private client and product work. The public ones live [here](h
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-anuraghazra.vercel.app/api?username=webneco&show_icons=true&theme=dark&hide_border=true&bg_color=0A1420&title_color=F2CD37&icon_color=FE8A18&text_color=8FA3B8&count_private=true&include_all_commits=true&ring_color=D01012" />
-<img height="165" src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=webneco&layout=compact&theme=dark&hide_border=true&bg_color=0A1420&title_color=F2CD37&text_color=8FA3B8&langs_count=8" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/buildlog.svg?v=4" width="100%" alt="What the 50 repositories are made of" />
+
+<br/>
+
+[![Followers](https://img.shields.io/github/followers/webneco?style=for-the-badge&label=FOLLOWERS&labelColor=0A1420&color=D01012)](https://github.com/webneco?tab=followers)
+[![Stars](https://img.shields.io/github/stars/webneco?style=for-the-badge&label=STARS&labelColor=0A1420&color=F2CD37)](https://github.com/webneco?tab=repositories)
+[![Repos](https://img.shields.io/badge/PUBLIC_REPOS-6-2E9E4F?style=for-the-badge&labelColor=0A1420)](https://github.com/webneco?tab=repositories)
+[![Builds](https://img.shields.io/badge/TOTAL_BUILDS-50-0D69AB?style=for-the-badge&labelColor=0A1420)](https://github.com/webneco)
 
 <br/>
 
