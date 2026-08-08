@@ -20,22 +20,39 @@
 
 ## 🧱 Parts List
 
-```javascript
-// ┌─────────────────────────────────────────────────────┐
-// │  SET #2026 · ADITYA VIKRAM SINGH · 1 MINIFIGURE      │
-// └─────────────────────────────────────────────────────┘
+<div align="center">
 
-const aditya = {
-  company:    "WebNeco Infotech",
-  building:   "CareFlow CMS — multi-tenant clinic OS, WhatsApp-native, PWA",
-  flagship:   "Nirmaanly — AI no-code app builder · India's 63M SMEs",
-  stack:      ["Next.js 16", "React 19", "TypeScript", "Prisma", "PostgreSQL"],
-  aiStack:    ["RAG Pipelines", "MCP Servers", "Claude API", "Gemini", "LangChain"],
-  markets:    ["Indian clinics", "Indian SMEs", "Bharat / Vernacular", "Global"],
-  compliance: ["DPDP Act 2023", "UPI-native", "GST-ready", "Consent + eSign"],
-  openTo:     ["Collabs", "Co-founder Conversations", "Consulting"],
-  status:     "🟢 Shipping · 🟠 Building · 🔵 Exploring",
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/manifest.svg?v=4" width="100%" alt="Set 2026 — parts inventory" />
+
+</div>
+
+```javascript
+// ╔══════════════════════════════════════════════════════════════╗
+// ║  SET 2026 — "THE FOUNDER"                                    ║
+// ║  1 minifigure · 50 builds · 6 years · some assembly required ║
+// ╚══════════════════════════════════════════════════════════════╝
+
+const set = {
+  minifigure:   "Aditya Vikram Singh — Founder, WebNeco Infotech",
+  baseplate:    "Bhopal, India 🇮🇳 → shipping worldwide",
+
+  centrepiece:  "CareFlow CMS — the clinic OS that runs on WhatsApp",
+  alsoInTheBox: "Nirmaanly — describe an app in Hindi, get the app",
+
+  studs: {
+    frontend:   ["Next.js 16", "React 19", "TypeScript", "Tailwind"],
+    backend:    ["Node.js", "Prisma 6", "PostgreSQL", "NextAuth v5"],
+    ai:         ["RAG pipelines", "MCP servers", "Claude API", "Gemini"],
+  },
+
+  snapsOnto:    ["Indian clinics", "63M SMEs", "Bharat / vernacular", "Global"],
+  certifiedFor: ["DPDP Act 2023", "UPI-native", "GST-ready", "Consent + eSign"],
+  missingPiece: ["Collabs", "Co-founder conversations", "Consulting"],
+
+  buildStatus:  "🟢 shipping · 🟠 building · 🔵 prototyping",
 }
+
+// Warning: contains small parts. Ships to production anyway.
 ```
 
 <img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=4" width="100%" alt="" />
