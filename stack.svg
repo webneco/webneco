@@ -1,0 +1,334 @@
+<svg width="900" height="208" viewBox="0 0 900 208" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="sbg" x1="0" y1="0" x2="900" y2="208" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308"/>
+    <stop offset="50%" stop-color="#070311">
+      <animate attributeName="stop-color" values="#070311;#02110f;#0d0500;#070311" dur="14s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#000308"/>
+  </linearGradient>
+  <linearGradient id="stitle" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#fed7aa"/>
+    <stop offset="45%" stop-color="#ffffff"/>
+    <stop offset="75%" stop-color="#f97316"/>
+    <stop offset="100%" stop-color="#c2410c"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-210,0;210,0;-210,0" dur="7s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="srule" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308" stop-opacity="0"/>
+    <stop offset="30%" stop-color="#ea580c" stop-opacity="0.5"/>
+    <stop offset="70%" stop-color="#10b981" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#000308" stop-opacity="0"/>
+  </linearGradient>
+  <!-- soft edge fade so chips slide in and out of nothing -->
+  <linearGradient id="fade" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#000308" stop-opacity="1"/>
+    <stop offset="9%" stop-color="#000308" stop-opacity="0"/>
+    <stop offset="91%" stop-color="#000308" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000308" stop-opacity="1"/>
+  </linearGradient>
+  <clipPath id="rowclip0"><rect x="0" y="58" width="900" height="34"/></clipPath>
+  <clipPath id="rowclip1"><rect x="0" y="104" width="900" height="34"/></clipPath>
+  <clipPath id="rowclip2"><rect x="0" y="150" width="900" height="34"/></clipPath>
+</defs>
+
+<rect width="900" height="208" fill="url(#sbg)"/>
+
+<!-- drifting grid -->
+<g stroke="#f97316" stroke-width="0.4" stroke-opacity="0.06" fill="none">
+  <animateTransform attributeName="transform" type="translate" values="0,0;-60,0" dur="10s" repeatCount="indefinite"/>
+  <line x1="-60" y1="0" x2="-60" y2="208"/><line x1="0" y1="0" x2="0" y2="208"/>
+  <line x1="60" y1="0" x2="60" y2="208"/><line x1="120" y1="0" x2="120" y2="208"/>
+  <line x1="180" y1="0" x2="180" y2="208"/><line x1="240" y1="0" x2="240" y2="208"/>
+  <line x1="300" y1="0" x2="300" y2="208"/><line x1="360" y1="0" x2="360" y2="208"/>
+  <line x1="420" y1="0" x2="420" y2="208"/><line x1="480" y1="0" x2="480" y2="208"/>
+  <line x1="540" y1="0" x2="540" y2="208"/><line x1="600" y1="0" x2="600" y2="208"/>
+  <line x1="660" y1="0" x2="660" y2="208"/><line x1="720" y1="0" x2="720" y2="208"/>
+  <line x1="780" y1="0" x2="780" y2="208"/><line x1="840" y1="0" x2="840" y2="208"/>
+  <line x1="900" y1="0" x2="900" y2="208"/><line x1="960" y1="0" x2="960" y2="208"/>
+</g>
+
+<!-- title -->
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1" dur="0.5s" fill="freeze"/>
+  <text x="30" y="34" font-family="Arial Black,Impact,sans-serif" font-size="20" font-weight="900" letter-spacing="-0.3" fill="url(#stitle)">THE STACK I SHIP WITH</text>
+  <text x="870" y="33" font-family="monospace" font-size="8.5" fill="#94a3b8" text-anchor="end" opacity="0.7" letter-spacing="1.4">always moving  ·  always shipping</text>
+</g>
+<rect x="0" y="44" width="0" height="1.2" fill="url(#srule)">
+  <animate attributeName="width" values="0;900" dur="1s" begin="0.2s" fill="freeze"/>
+</rect>
+
+<!-- ── FRONTEND ── -->
+<g clip-path="url(#rowclip0)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;-1104,0" dur="26.0s" repeatCount="indefinite"/>
+    <g>
+      <rect x="0" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="14" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="72" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">React 19</text>
+    </g>
+    <g>
+      <rect x="138" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="152" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="210" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Next.js 16</text>
+    </g>
+    <g>
+      <rect x="276" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="290" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="348" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">TypeScript</text>
+    </g>
+    <g>
+      <rect x="414" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="428" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="486" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Tailwind CSS</text>
+    </g>
+    <g>
+      <rect x="552" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="566" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="624" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">shadcn/ui</text>
+    </g>
+    <g>
+      <rect x="690" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="704" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="762" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Zustand</text>
+    </g>
+    <g>
+      <rect x="828" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="842" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="900" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">TanStack Query</text>
+    </g>
+    <g>
+      <rect x="966" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="980" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1038" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Framer Motion</text>
+    </g>
+    <g>
+      <rect x="1104" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1118" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1176" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">React 19</text>
+    </g>
+    <g>
+      <rect x="1242" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1256" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="1314" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Next.js 16</text>
+    </g>
+    <g>
+      <rect x="1380" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1394" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1452" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">TypeScript</text>
+    </g>
+    <g>
+      <rect x="1518" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1532" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="1590" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Tailwind CSS</text>
+    </g>
+    <g>
+      <rect x="1656" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1670" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="1728" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">shadcn/ui</text>
+    </g>
+    <g>
+      <rect x="1794" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1808" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1866" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Zustand</text>
+    </g>
+    <g>
+      <rect x="1932" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="1946" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="2004" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">TanStack Query</text>
+    </g>
+    <g>
+      <rect x="2070" y="62" width="132" height="26" rx="13" fill="#05070d" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="2084" cy="75" r="2.6" fill="#0ea5e9"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="2142" y="79" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Framer Motion</text>
+    </g>
+  </g>
+</g>
+
+<!-- ── BACKEND · DATA ── -->
+<g clip-path="url(#rowclip1)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-1104,0;0,0" dur="31.0s" repeatCount="indefinite"/>
+    <g>
+      <rect x="0" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="14" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="72" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Node.js</text>
+    </g>
+    <g>
+      <rect x="138" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="152" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="210" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Prisma 6</text>
+    </g>
+    <g>
+      <rect x="276" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="290" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="348" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">PostgreSQL</text>
+    </g>
+    <g>
+      <rect x="414" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="428" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="486" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">NextAuth v5</text>
+    </g>
+    <g>
+      <rect x="552" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="566" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="624" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Zod</text>
+    </g>
+    <g>
+      <rect x="690" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="704" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="762" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Upstash Redis</text>
+    </g>
+    <g>
+      <rect x="828" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="842" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="900" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Razorpay</text>
+    </g>
+    <g>
+      <rect x="966" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="980" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1038" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Resend</text>
+    </g>
+    <g>
+      <rect x="1104" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1118" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1176" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Node.js</text>
+    </g>
+    <g>
+      <rect x="1242" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1256" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="1314" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Prisma 6</text>
+    </g>
+    <g>
+      <rect x="1380" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1394" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1452" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">PostgreSQL</text>
+    </g>
+    <g>
+      <rect x="1518" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1532" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="1590" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">NextAuth v5</text>
+    </g>
+    <g>
+      <rect x="1656" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1670" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="1728" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Zod</text>
+    </g>
+    <g>
+      <rect x="1794" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1808" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1866" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Upstash Redis</text>
+    </g>
+    <g>
+      <rect x="1932" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="1946" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="2004" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Razorpay</text>
+    </g>
+    <g>
+      <rect x="2070" y="108" width="132" height="26" rx="13" fill="#05070d" stroke="#fb923c" stroke-opacity="0.45"/>
+      <circle cx="2084" cy="121" r="2.6" fill="#ea580c"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="2142" y="125" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Resend</text>
+    </g>
+  </g>
+</g>
+
+<!-- ── AI · INFRA ── -->
+<g clip-path="url(#rowclip2)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;-1104,0" dur="23.0s" repeatCount="indefinite"/>
+    <g>
+      <rect x="0" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="14" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="72" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Claude API</text>
+    </g>
+    <g>
+      <rect x="138" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="152" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="210" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Gemini</text>
+    </g>
+    <g>
+      <rect x="276" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="290" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="348" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">RAG Pipelines</text>
+    </g>
+    <g>
+      <rect x="414" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="428" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="486" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">MCP Servers</text>
+    </g>
+    <g>
+      <rect x="552" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="566" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="624" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">LangChain</text>
+    </g>
+    <g>
+      <rect x="690" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="704" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="762" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">WhatsApp Cloud API</text>
+    </g>
+    <g>
+      <rect x="828" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="842" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="900" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Vercel</text>
+    </g>
+    <g>
+      <rect x="966" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="980" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1038" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Docker</text>
+    </g>
+    <g>
+      <rect x="1104" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1118" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1176" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Claude API</text>
+    </g>
+    <g>
+      <rect x="1242" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1256" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="1314" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Gemini</text>
+    </g>
+    <g>
+      <rect x="1380" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1394" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="1452" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">RAG Pipelines</text>
+    </g>
+    <g>
+      <rect x="1518" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1532" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="1590" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">MCP Servers</text>
+    </g>
+    <g>
+      <rect x="1656" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1670" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <text x="1728" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">LangChain</text>
+    </g>
+    <g>
+      <rect x="1794" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1808" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="1866" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">WhatsApp Cloud API</text>
+    </g>
+    <g>
+      <rect x="1932" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="1946" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="2004" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Vercel</text>
+    </g>
+    <g>
+      <rect x="2070" y="154" width="132" height="26" rx="13" fill="#05070d" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="2084" cy="167" r="2.6" fill="#10b981"><animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/></circle>
+      <text x="2142" y="171" font-family="monospace" font-size="9.5" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.4">Docker</text>
+    </g>
+  </g>
+</g>
+
+<!-- edge fade -->
+<rect x="0" y="50" width="900" height="150" fill="url(#fade)"/>
+
+<!-- row labels sit above the edge fade -->
+<text x="30" y="56" font-family="monospace" font-size="7.5" fill="#38bdf8" opacity="0.7" letter-spacing="1.8">FRONTEND</text>
+<text x="30" y="102" font-family="monospace" font-size="7.5" fill="#fb923c" opacity="0.7" letter-spacing="1.8">BACKEND · DATA</text>
+<text x="30" y="148" font-family="monospace" font-size="7.5" fill="#34d399" opacity="0.7" letter-spacing="1.8">AI · INFRA</text>
+
+<rect x="0" y="0" width="900" height="1.4" fill="url(#srule)" opacity="0.5"/>
+<rect x="0" y="204" width="900" height="1.4" fill="url(#srule)" opacity="0.45">
+  <animate attributeName="opacity" values="0.45;0.85;0.45" dur="3.6s" repeatCount="indefinite"/>
+</rect>
+</svg>
