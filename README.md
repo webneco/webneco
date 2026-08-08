@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/header.svg" width="100%" alt="Aditya Vikram Singh — WebNeco" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/header.svg?v=3" width="100%" alt="Aditya Vikram Singh — WebNeco" />
 
 <br/>
 
@@ -22,7 +22,7 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## Mission Control
 
@@ -105,13 +105,13 @@ Scroll to [The Neural Map](#the-neural-map) for what the other 44 repos actually
 
 </details>
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## Pinned Transmission
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/careflow.svg" width="100%" alt="CareFlow CMS — the visit loop" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/careflow.svg?v=3" width="100%" alt="CareFlow CMS — the visit loop" />
 
 </div>
 
@@ -179,13 +179,13 @@ Everything downstream is fire-and-forget, so a slow WhatsApp API never blocks th
 
 </div>
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## The Neural Map
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/work.svg" width="100%" alt="50 repositories clustered by domain" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/work.svg?v=3" width="100%" alt="50 repositories clustered by domain" />
 
 </div>
 
@@ -228,13 +228,13 @@ The bread and butter: billing and invoicing systems, tutoring platforms, gig mar
 
 > **Note** — 44 of those 50 repos are private client and product work. They're counted here, never named. Public code is linked above.
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## Systems
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/stack.svg" width="100%" alt="The stack, three layers deep" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/stack.svg?v=3" width="100%" alt="The stack, three layers deep" />
 
 <br/><br/>
 
@@ -310,7 +310,7 @@ Permission granted.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## Telemetry
 
@@ -348,7 +348,7 @@ Permission granted.
 
 </div>
 
-<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/webneco/webneco/main/divider.svg?v=3" width="100%" alt="" />
 
 ## Open Channel
 
